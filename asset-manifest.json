@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/testing/static/css/main.742f7cfd.css",
-    "main.js": "/testing/static/js/main.6118b82e.js",
-    "static/media/profile-pic.jpg": "/testing/static/media/profile-pic.942b02a6e6d78ec65a7c.jpg",
-    "index.html": "/testing/index.html",
-    "main.742f7cfd.css.map": "/testing/static/css/main.742f7cfd.css.map",
-    "main.6118b82e.js.map": "/testing/static/js/main.6118b82e.js.map"
+    "main.css": "/Scrimba-React-Digital-Business-Card/static/css/main.742f7cfd.css",
+    "main.js": "/Scrimba-React-Digital-Business-Card/static/js/main.c25e0359.js",
+    "static/media/profile-pic.jpg": "/Scrimba-React-Digital-Business-Card/static/media/profile-pic.942b02a6e6d78ec65a7c.jpg",
+    "index.html": "/Scrimba-React-Digital-Business-Card/index.html",
+    "main.742f7cfd.css.map": "/Scrimba-React-Digital-Business-Card/static/css/main.742f7cfd.css.map",
+    "main.c25e0359.js.map": "/Scrimba-React-Digital-Business-Card/static/js/main.c25e0359.js.map"
   },
   "entrypoints": [
     "static/css/main.742f7cfd.css",
-    "static/js/main.6118b82e.js"
+    "static/js/main.c25e0359.js"
   ]
 }
