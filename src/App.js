@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Info} from './components/Info'
+import {About} from './components/About'
+import {Interest} from './components/Interests'
+import { Footer } from './components/Footer';
+import {Helmet} from 'react-helmet'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-gray-800 h-screen flex justify-center items-center">
+       <Helmet>
+        <title>Digital Business Card</title>
+        <meta name="description" content="Scrimba First Project" />
+       </Helmet>
+      <div className="bg-gray-900 w-[72%] h-[92%] min-h-[794px] max-w-[370px] flex flex-col rounded-xl overflow-hidden shadow-lg">
+          <Info />
+          <About/>
+          <Interest />
+          <Footer/>
+      </div>
     </div>
   );
 }
